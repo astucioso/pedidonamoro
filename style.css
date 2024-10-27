@@ -63,3 +63,15 @@ h1 {
 .yes-button:hover {
     background-color: #cc0066;
 }
+
+.special-message {
+    font-size: 1.2rem;
+    color: #e60073;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.show-animation {
+    opacity: 1;
+}
